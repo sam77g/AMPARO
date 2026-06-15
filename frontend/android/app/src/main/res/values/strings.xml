@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">AMPARO</string>
+    <string name="title_activity_main">AMPARO</string>
+    <string name="package_name">com.seudominio.amparo</string>
+    <string name="custom_url_scheme">com.seudominio.amparo</string>
+</resources>

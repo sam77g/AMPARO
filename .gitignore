@@ -1,0 +1,29 @@
+# Dependências
+node_modules/
+**/node_modules/
+
+# Variáveis de ambiente
+.env
+**/.env
+
+# Build
+dist/
+**/dist/
+
+# Android
+.gradle/
+**/.gradle/
+
+build/
+**/build/
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db

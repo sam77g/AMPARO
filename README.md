@@ -1,48 +1,173 @@
-# TDE Mod
+# AMPARO
 
-Aplicação composta por:
+Aplicação full stack desenvolvida com **Node.js**, **Vite** e **Capacitor**, composta por um frontend web, backend e integração para Android.
 
-- Frontend: Vite + Capacitor
-- Backend: Node.js
-- Android: Capacitor Android
+## 📋 Descrição
 
-## Requisitos
+O AMPARO é uma aplicação dividida em três partes principais:
 
-- Node.js 20+
-- npm
-- Android Studio (opcional)
+* **Frontend:** interface desenvolvida com Vite.
+* **Backend:** servidor desenvolvido em Node.js.
+* **Android:** integração através do Capacitor para gerar uma aplicação móvel.
 
-## Instalação
-
-### Backend
-
-```bash
-cd backend
-npm install
-npm start
-```
+## 🚀 Tecnologias utilizadas
 
 ### Frontend
 
+* Vite
+* HTML5
+* CSS3
+* JavaScript
+
+### Backend
+
+* Node.js
+* npm
+
+### Mobile
+
+* Capacitor
+* Android Studio
+
+---
+
+## 📂 Estrutura do projeto
+
+```text
+AMPARO/
+│
+├── backend/
+│
+├── frontend/
+│
+├── README.md
+├── amparo.md
+├── capacitor.config.json
+├── logo.png
+└── tde_mod_atualizar.md
+```
+
+---
+
+## ⚙️ Pré-requisitos
+
+Instale os seguintes programas:
+
+* Node.js (versão 20 ou superior)
+* npm
+* Git
+* Android Studio (opcional)
+
+Verifique as instalações:
+
+```bash
+node -v
+npm -v
+git --version
+```
+
+---
+
+## 🔧 Instalação
+
+### 1. Clonar o repositório
+
+```bash
+git clone https://github.com/sam77g/AMPARO.git
+
+cd AMPARO
+```
+
+---
+
+### 2. Configurar o backend
+
+```bash
+cd backend
+
+npm install
+```
+
+Inicie o servidor:
+
+```bash
+npm start
+```
+
+ou
+
+```bash
+node server.js
+```
+
+---
+
+### 3. Configurar o frontend
+
+Abra outro terminal:
+
 ```bash
 cd frontend
+
 npm install
+
 npm run dev
 ```
 
-### Gerar build
+Para gerar a versão de produção:
 
 ```bash
 npm run build
 ```
 
-### Android
+---
+
+## 📱 Executar no Android
+
+Dentro da pasta frontend:
 
 ```bash
 npx cap sync android
+
 npx cap open android
 ```
 
-## Configuração
+O Android Studio será aberto.
 
-Crie um arquivo `.env` dentro de `backend` usando `.env.example` como base.
+---
+
+## 🔐 Variáveis de ambiente
+
+Crie um arquivo `.env` dentro da pasta `backend`.
+
+Exemplo:
+
+```env
+PORT=
+
+DB_HOST=
+
+DB_PORT=
+
+DB_NAME=
+
+DB_USER=
+
+DB_PASSWORD=
+
+JWT_SECRET=
+```
+
+**Nunca publique o arquivo `.env` no GitHub.**
+
+---
+
+## 📄 Licença
+
+Este projeto está disponível para fins acadêmicos e educacionais.
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por Samuel.

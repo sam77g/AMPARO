@@ -43,8 +43,7 @@ AMPARO/
 ├── README.md
 ├── amparo.md
 ├── capacitor.config.json
-├── logo.png
-└── tde_mod_atualizar.md
+└── logo.png
 ```
 
 ---
